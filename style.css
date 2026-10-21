@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'ArionCustom';
+    ;
+    src: url('fonts/Arion.woff2') format('woff2'),
+         url('fonts/Arion.woff') format('woff'),
+         url('fonts/Arion.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+        
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     }
+
+body {
+    color: #eceaea;
+    background-color: #111;
+    overflow-x: hidden;
+    font-family: 'ArionCustom', 'Segoe UI', sans-serif;
+    }
+
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    scroll-snap-align: start; 
+    position: relative;   
+    }
+#hero {
+    background: url(img/ced8e71a7e8f1c679cb09d0a6928c5a5.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+#hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    max-width: 600px;
+    opacity: 0.9;
+    margin-bottom: 40px;
+    }
+
+#directions {
+    background: url(img/ea8869dff6b030913156d247544bd037.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+#directions h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #fce625;
+    }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+    }
+
+.card:nth-child(1) {
+    background: url(img/i.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-radius: 12px;
+    border-bottom: 4px solid #2c0404;
+    transition: transform 0.3s;
+    }
+.card:nth-child(2) {
+    background: url(img/2bb0d503a603099615b35bab9692cadf.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-radius: 12px;
+    border-bottom: 4px solid #0d3a7c;
+    transition: transform 0.3s;
+    }
+
+.card:nth-child(3) {
+    background: url(img/51fe8abdebed28f65e26c61bd5eaea22.png);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-radius: 12px;
+    border-bottom: 4px solid #59d159;
+    transition: transform 0.3s;
+    }
+.card:nth-child(4) {
+    background: url(img/ced8e71a7e8f1c679cb09d0a6928c5a5.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-radius: 12px;
+    border-bottom: 4px solid #29f09d;
+    transition: transform 0.3s;
+    }
+
+.card:hover {
+    transform: translateY(-5px);
+    }
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    }
+
+#contacts {
+    background: url(img/2bb0d503a603099615b35bab9692cadf.jpg);
+    background-position: center;
+    background-size: cover;
+    }
+
+#contacts h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    }
+
+#contacts p {
+    font-size: 1.2rem;
+    color: #9ca3af;
+    margin-bottom: 40px;
+    }
+
+.cta-button {
+    display: inline-block;
+    background: url(img/e4a646e9d3373382927ee47ba7796773.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 16px 40px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 10px 20px ;
+    transition: all 0.3s;
+    }
+
+.cta-button:hover {
+    background: url(img/e4a646e9d3373382927ee47ba7796773.jpg);
+    transform: scale(1.05);
+    }
+
+    @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-10px); }
+    60% { transform: translateY(-5px); }
+    }
+
+footer {
+    position: absolute;
+    bottom: 15px;
+    font-size: 0.8rem;
+    color: #4973ad;
+    }
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    pointer-events: none;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    pointer-events: none;
+    box-sizing: border-box;
+    border: 20px solid transparent; 
+    border-image-source: url('img/gg.png'); 
+    border-image-slice: 30; 
+    border-image-repeat: round;
+    }
