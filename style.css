@@ -34,7 +34,7 @@ body {
     position: relative;   
     }
 #hero {
-    background: url(img/ced8e71a7e8f1c679cb09d0a6928c5a5.jpg);
+    background: url(img/gg.png);
     background-position: center;
     background-size: cover;
     }
@@ -189,7 +189,7 @@ body::before {
     pointer-events: none;
     box-sizing: border-box;
     border: 20px solid transparent; 
-    border-image-source: url('img/gg.png'); 
+    border-image-source: url('img/ced8e71a7e8f1c679cb09d0a6928c5a5.jpg'); 
     border-image-slice: 30; 
     border-image-repeat: round;
     }
