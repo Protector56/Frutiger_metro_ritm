@@ -165,10 +165,3 @@ body {
     40% { transform: translateY(-10px); }
     60% { transform: translateY(-5px); }
 }
-
-footer {
-    position: absolute;
-    bottom: 15px;
-    font-size: 0.8rem;
-    color: #4973ad;
-}
