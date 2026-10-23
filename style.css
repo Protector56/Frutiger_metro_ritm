@@ -54,7 +54,7 @@ body {
     }
 
 #directions {
-    background: url(img/ea8869dff6b030913156d247544bd037.jpg);
+    background: url(imgs/ea8869dff6b030913156d247544bd037.jpg);
     background-position: center;
     background-size: cover;
     }
@@ -74,7 +74,7 @@ body {
     }
 
 .card:nth-child(1) {
-    background: url(img/i.webp);
+    background: url(imgs/i.webp);
     background-size: cover;
     background-position: center;
     padding: 30px;
@@ -83,7 +83,7 @@ body {
     transition: transform 0.3s;
     }
 .card:nth-child(2) {
-    background: url(img/2bb0d503a603099615b35bab9692cadf.jpg);
+    background: url(imgs/2bb0d503a603099615b35bab9692cadf.jpg);
     background-size: cover;
     background-position: center;
     padding: 30px;
@@ -93,7 +93,7 @@ body {
     }
 
 .card:nth-child(3) {
-    background: url(img/51fe8abdebed28f65e26c61bd5eaea22.png);
+    background: url(imgs/51fe8abdebed28f65e26c61bd5eaea22.png);
     background-size: cover;
     background-position: center;
     padding: 30px;
@@ -102,7 +102,7 @@ body {
     transition: transform 0.3s;
     }
 .card:nth-child(4) {
-    background: url(img/ced8e71a7e8f1c679cb09d0a6928c5a5.jpg);
+    background: url(imgs/ced8e71a7e8f1c679cb09d0a6928c5a5.jpg);
     background-size: cover;
     background-position: center;
     padding: 30px;
@@ -121,7 +121,7 @@ body {
     }
 
 #contacts {
-    background: url(img/2bb0d503a603099615b35bab9692cadf.jpg);
+    background: url(imgs/2bb0d503a603099615b35bab9692cadf.jpg);
     background-position: center;
     background-size: cover;
     }
@@ -139,7 +139,7 @@ body {
 
 .cta-button {
     display: inline-block;
-    background: url(img/e4a646e9d3373382927ee47ba7796773.jpg);
+    background: url(imgs/e4a646e9d3373382927ee47ba7796773.jpg);
     background-position: center;
     background-size: cover;
     color: #fff;
@@ -153,7 +153,7 @@ body {
     }
 
 .cta-button:hover {
-    background: url(img/e4a646e9d3373382927ee47ba7796773.jpg);
+    background: url(imgs/e4a646e9d3373382927ee47ba7796773.jpg);
     transform: scale(1.05);
     }
 
@@ -189,7 +189,7 @@ body::before {
     pointer-events: none;
     box-sizing: border-box;
     border: 20px solid transparent; 
-    border-image-source: url('img/ced8e71a7e8f1c679cb09d0a6928c5a5.jpg'); 
+    border-image-source: url('imgs/ced8e71a7e8f1c679cb09d0a6928c5a5.jpg'); 
     border-image-slice: 30; 
     border-image-repeat: round;
     }
