@@ -172,27 +172,3 @@ footer {
     font-size: 0.8rem;
     color: #4973ad;
 }
-
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 9999;
-    pointer-events: none;
-    box-sizing: border-box;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: 9999;
-    pointer-events: none;
-    box-sizing: border-box;
-    border: 20px solid transparent; 
-    border-image-source: url('imgs/ced8e71a7e8f1c679cb09d0a6928c5a5.jpg'); 
-    border-image-slice: 30; 
-    border-image-repeat: round;
-}
